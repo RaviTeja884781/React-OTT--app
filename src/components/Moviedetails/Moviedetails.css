@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.moviedetails {
+    border: 0px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 60px 90px;
+    width: 1050px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    /* background-color: #f1faee; */
+    /* background-color: #6c757d; */
+    background-color: #e0fbfc;
+}
+
+.moviedetails_poster {
+    display: flex;
+    justify-content: space-between;
+}
+
+.moviedetails_poster img,
+iframe {
+    border: 0px solid black;
+    border-radius: 5px;
+    width: 500px;
+    height: 300px;
+}
+
+.moviedetail{
+    border: 0px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #dee2e6;
+}
+.moviedetail p{
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: 400;
+    margin-left: 15px;
+    
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    color:#6c757d;
+   
+}
+
+.moviedetail_story{
+    font-size: large;
+    font-weight: bold;
+    color: #6c757d;
+}
+
+.moviedetail_hero{
+    display: flex;
+}
+
+.moviedetail_btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.moviedetail_btn button{
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    background-color:#58BDD5 ;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.moviedetail_btn button:hover{
+    background-color: rgb(72, 167, 72);
+}

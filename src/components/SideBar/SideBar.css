@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    border: 0px solid black;
+    border-radius: 8px;
+    width: 300px;
+    padding: 15px;
+    position: absolute;
+    margin-top: -750px;
+    margin-left: 1180px;
+    /* margin-top: -405px;
+    margin-left: 1085px; */
+    background-color: #e0fbfc;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.sidebar_1 {
+    border: 0px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.sidebar_1 button {
+    border: 0px solid black;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    background-color: #58BDD5;
+    width: 250px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.sidebar_1 button:hover{
+    background-color: rgb(72, 167, 72);
+}
+
+
+.sidebar_2 {
+    /* border: 1px solid #6c757d; */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    
+}
+
+.sidebar_flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sidebar_2 p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar_flex i{
+    font-size: 30px;
+   
+}
+
+.fa-square-facebook{
+ color:#4267B2 ;
+}
+
+.fa-square-instagram{
+color: #bc2a8d;
+}
+.fa-square-whatsapp{
+color: #25D366;
+}
+
+.fa-square-twitter{
+color:#1DA1F2 ;
+}
